@@ -6,7 +6,7 @@ This repository contains the implementation, evaluation, and documentation for *
 * **State Space:** Continuous 4-dimensional vector containing cart position, cart velocity, pole angle, and pole angular velocity.
 * **Action Space:** Discrete binary actions: push the cart left (`0`) or right (`1`).
 * **Reward Function:** $+1$ reward awarded for every time-step the pole remains upright.
-* **Environment:** OpenAI Gymnasium `CartPole-v1` augmented with a custom wrapper that dynamically randomizes physical attributes (cart mass, pole mass, and force magnitude) on every episode reset to bridge the "reality gap."
+* **Environment:** OpenAI Gymnasium `CartPole-v1` augmented with a custom wrapper which dynamically randomizes physical attributes (cart mass, pole mass, and force magnitude) on every episode reset to bridge the "reality gap."
 
 ---
 
